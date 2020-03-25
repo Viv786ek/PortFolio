@@ -1,0 +1,58 @@
+body
+{
+	
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	
+}
+/*---------------------Header CSS----------------*/
+#header
+{
+	height: 100vh;
+	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(img/background.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+.user-box
+{
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	position: absolute;
+}
+.user-box img
+{
+	border-radius: 50%;
+	width: 250px;
+	border: 2px solid #6caed5;
+}
+.user-box h1
+{
+	color: #fff;
+	font-weight: bold;
+	margin: 10px;
+}
+.user-box p
+{
+	color: #fff; 
+}
+.scroll-btn
+{
+	bottom: 30px;
+	position: absolute;
+	left: 50%
+	transform: translateX(-50%);
+	border: 1px solid #fff;
+	padding: 10px 10px 20px;
+	border-radius: 30px;
+}
+
+
+
+
+
+
+
